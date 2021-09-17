@@ -22,7 +22,7 @@ module.exports = class customGfx {
         ctx.drawImage(iyga, 0, 0, 600, 600);
         
 let usr = this.text1;
-let name = usr.length > 7 ? usr.substring(0, 7) + " " : usr;
+let name = usr.length > 5 ? usr.substring(0, 5) + " " : usr;
 ctx.font = "87px BeamweaponItal";
 ctx.textAlign = 'left';
 ctx.lineWidth = 6;
