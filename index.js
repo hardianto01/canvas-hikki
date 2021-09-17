@@ -42,6 +42,8 @@ module.exports.Gfx2 = require('./src/gfx/Gfx2');
 module.exports.Gfx3 = require('./src/gfx/Gfx3');
 module.exports.Gfx4 = require('./src/gfx/Gfx4');
 module.exports.Gfx5 = require('./src/gfx/Gfx5');
+module.exports.customGfx = require('./src/gfx/gfxcustom')
+module.exports.customGfx2 = require('./src/gfx/gfxcustom2')
 //MyBot
 module.exports.Bag = require('./src/premium/Bag');
 module.exports.Stat = require('./src/premium/Stat');
