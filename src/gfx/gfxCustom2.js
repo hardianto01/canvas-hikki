@@ -18,6 +18,7 @@ module.exports = class customGfx2 {
     }
     setBg(value) {
         this.bg = value;
+        return this
     }
     async toAttachment() {
         const canvas = Canvas.createCanvas(600, 600);
