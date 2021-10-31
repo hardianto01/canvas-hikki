@@ -1,2 +1,3 @@
 # canvas-hikki
- recode bang 
+ ```go
+make doang ga star+follow
